@@ -23,7 +23,7 @@ function App() {
         </a>
       </div>
 
-      <h1>Vite + React</h1>
+      <h1>Welcome to Design Map</h1>
 
       <div className="card bg-light-yellow">
         <button className="bg-light-blue text-white" onClick={() => setCount((count) => count + 1)}>
