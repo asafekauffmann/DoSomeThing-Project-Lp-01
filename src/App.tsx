@@ -2,14 +2,27 @@ import { useState } from 'react'
 import logoDoSomeThing from './assets/images/logo.svg'
 import './App.css'
 import MyHero from './components/MyHero'
+import Documentation from './components/Documentation'
+import secondWave from './assets/images/second-wave.svg'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
+  const navLinks = [
+    {
+      id: 1,
+      title: "Documentation",
+    },
+    {
+      id: 2,
+      title: "Login",
+    },
+  ];
+
+
   return (
     <>
-    {/* Nav */}
       <div className="relative h-auto w-full">
         <div className="bg-dark-blue flex flex-row justify-between content-center items-center p-3" >
           <div className="p-6">
@@ -19,31 +32,41 @@ function App() {
           </div>
 
           <div className="flex gap-6 p-6">
-            <p className="text-lg text-paragh-gray">Documentation</p>
-            <p className="text-lg text-paragh-gray">Login</p>
+            {navLinks.map((nav, index) => ( 
+              <p key={index} className="text-lg text-paragh-gray">
+                {nav.title}
+              </p>
+            ))}
           </div>
         </div>
       </div>
     
-
       <MyHero />
 
      {/* Second Hero */}
-      <div className="card bg-light-blue">
-      <h1 className="text-dark-blue text-6xl font-normal pb-3">
+      <div className="w-full flex flex-col items-center justify-center bg-light-blue">
+        <Documentation />
+
+        <h1 className="font-normal text-6xl text-dark-blue pb-3">
           Welcome to Design Map
         </h1>
-        <h1 className="text-white text-6xl font-normal pb-3">
+        <h1 className="font-normal text-6xl text-white pb-3">
           Welcome to Design Map
         </h1>
-        
         <p className="text-white">
           Click on the Vite and React logos to learn more
         </p>
-        <button className="bg-white text-dark-blue" onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <button className="bg-white text-dark-blue">
+          count is
+        </button> 
       </div>
+
+      {/* Background Wave */}
+      <div className="w-full mb-0 bg-lighter-blue">
+        <img src={secondWave} className="w-full h-auto" />
+      </div> 
+
+
 
       <div className="card bg-lighter-blue">
         <h1 className="text-medium-blue text-5xl">
