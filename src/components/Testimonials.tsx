@@ -1,6 +1,6 @@
 const Testimonials = () => (
   <>
-    <h2 className="font-semibold text-6xl text-white pb-3" id="height-line-title">
+    <h2 className="font-semibold text-6xl text-white pb-3 lg:px-52" id="height-line-title">
       Update your team +40 more faster than other Website
     </h2>
 
