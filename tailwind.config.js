@@ -14,6 +14,7 @@ export default {
       '2xl': '1536px',
     },
     colors: {
+      'smooth-blue': '#75A2E5',
       'dark-blue': '#1A2130',
       'medium-blue': '#5A72A0',
       'light-blue': '#83B4FF',
