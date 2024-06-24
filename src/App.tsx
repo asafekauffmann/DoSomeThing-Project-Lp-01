@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import logoDoSomeThing from '../public/images/logo.svg'
-import firstWare from '../public/images/first-wave.svg'
+import logoDoSomeThing from './assets/images/logo.svg'
 import './App.css'
+import MyHero from './components/MyHero'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    {/* Nav */}
       <div className="relative h-auto w-full">
         <div className="bg-dark-blue flex flex-row justify-between content-center items-center p-3" >
           <div className="p-6">
@@ -16,45 +18,22 @@ function App() {
             </a>
           </div>
 
-          <div className="flex gap-3 p-6">
+          <div className="flex gap-6 p-6">
             <p className="text-lg text-paragh-gray">Documentation</p>
             <p className="text-lg text-paragh-gray">Login</p>
           </div>
         </div>
       </div>
-     
-      {/* first Hero */}
-      <div className="flex flex-col items-center justify-end bg-dark-blue h-auto ">
-        <div className="pt-44 pb-20 object-contain">
+    
 
-          <h1 className="text-white text-5xl font-normal pb-3">
-            Create some task
-          </h1>
-          <h1 className="text-light-blue text-5xl font-semibold pb-3">
-            More faster them all
-          </h1>
-          <p className="text-paragh-gray pb-3 w-full px-12 sm:w-[600px]">
-            Talk to your team and make everything great again.
-            Is only agree with work and will know how is good fly.
-          </p>
-
-          <button className="bg-light-blue text-white" onClick={() => setCount((count) => count + 1)}>
-            count is {count}
-          </button>
-
-        </div>
-
-        <div className="mb-0 w-full">
-          <img src={firstWare} className="w-full h-auto" />
-        </div>
-      </div>
+      <MyHero />
 
      {/* Second Hero */}
-      <div className="card pt-28 bg-light-blue">
-      <h1 className="text-dark-blue text-5xl">
+      <div className="card bg-light-blue">
+      <h1 className="text-dark-blue text-6xl font-normal pb-3">
           Welcome to Design Map
         </h1>
-        <h1 className="text-white text-5xl text-">
+        <h1 className="text-white text-6xl font-normal pb-3">
           Welcome to Design Map
         </h1>
         
