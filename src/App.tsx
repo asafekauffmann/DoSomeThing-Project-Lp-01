@@ -51,7 +51,7 @@ function App() {
         <Documentation />
 
         <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px]">
-          <div className="w-full">
+          <div className="w-full flex flex-col items-center">
             <h2 className="font-semibold text-6xl text-white pb-3">
               Update your team +40 more faster than other Website
             </h2>
