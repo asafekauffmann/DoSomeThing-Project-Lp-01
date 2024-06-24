@@ -49,19 +49,13 @@ function App() {
         <Documentation />
 
         <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px]">
-
           <div className="w-full flex flex-col items-center">
-            <h2 className="font-semibold text-6xl text-white pb-3">
-              Update your team +40 more faster than other Website
-            </h2>
             <Testimonials />
           </div>
-          
         </div>
         
       </div>
 
-      {/* Background Wave */}
       <div className="w-full mb-0 bg-lighter-blue">
         <img src={secondWave} className="w-full h-auto" />
       </div> 
@@ -79,8 +73,6 @@ function App() {
       </div>
       
       <ContactUs />
-
-
 
       <div className="bg-dark-gray flex justify-center content-center" >
         <a href="https://www.figma.com/design/dDzuNWi0mSH6oIqU11mMDc/Background-TestModel?node-id=0-1&t=1hiQ5kDFhrNPc9xa-0" target="_blank">

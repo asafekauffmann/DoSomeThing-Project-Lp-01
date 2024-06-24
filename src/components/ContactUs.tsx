@@ -10,6 +10,7 @@ const ContactUs = ( ) => (
 
     <div className="relative h-auto w-full flex justify-center bg-dark-blue">
       <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px] lg:h-[840px] ">
+
         <div className="w-full flex flex-col items-start justify-center object-contain ">
           <img src={bobbleMaskBgLast} className="relative lg:absolute md:-w-[360px] xl:w-auto" alt="Booble background"/>
           <div className="relative">
@@ -23,7 +24,7 @@ const ContactUs = ( ) => (
           <h1 className="font-semibold text-6xl text-white text-left pb-3" id="height-line-title">
             See what you can do in one week with us.
           </h1>
-          <p className="text-white text-lg text-left pb-5 ">
+          <p className="text-medium-blue text-lg text-left pb-5 ">
             That is the tecnic to improve some text, and make eveerything more cool. 
             We can talk about everything, and nobody will read. Fore sure, It’s a joke.
           </p>
