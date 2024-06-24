@@ -57,7 +57,7 @@ function App() {
           Click on the Vite and React logos to learn more
         </p>
         <button className="bg-white text-dark-blue">
-          count is
+          SEND EMAIL
         </button> 
       </div>
 
