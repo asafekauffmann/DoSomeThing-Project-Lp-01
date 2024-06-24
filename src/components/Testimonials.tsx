@@ -1,13 +1,15 @@
 const Testimonials = () => (
   <>
-    <p>Testimonials</p>
+    <h2 className="font-semibold text-6xl text-white pb-3" id="height-line-title">
+      Update your team +40 more faster than other Website
+    </h2>
 
     <p className="text-white">
       Click on the Vite and React logos to learn more
     </p>
-     
-
-    <button className="w-52 bg-white text-light-blue rounded-3xl p-3 ">CHECK ALL</button>
+    <button className="w-52 bg-white text-light-blue rounded-3xl p-3 ">
+      CHECK ALL
+    </button>
   </>
 )
 
