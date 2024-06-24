@@ -6,6 +6,7 @@ import Documentation from './components/Documentation'
 import secondWave from './assets/images/second-wave.svg'
 import fourWave from './assets/images/four-wave.svg'
 import threeWave from './assets/images/three-wave.svg'
+import Testimonials from './components/Testimonials'
 
 
 function App() {
@@ -49,18 +50,16 @@ function App() {
       <div className="w-full flex flex-col items-center justify-center bg-light-blue">
         <Documentation />
 
-        <h1 className="font-normal text-6xl text-dark-blue pb-3">
-          Welcome to Design Map
-        </h1>
-        <h1 className="font-normal text-6xl text-white pb-3">
-          Welcome to Design Map
-        </h1>
-        <p className="text-white">
-          Click on the Vite and React logos to learn more
-        </p>
-        <button className="bg-white text-dark-blue">
-          SEND EMAIL
-        </button> 
+        <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px]">
+          <div className="w-full">
+            <h2 className="font-semibold text-6xl text-white pb-3">
+              Update your team +40 more faster than other Website
+            </h2>
+            <Testimonials />
+          </div>
+          
+        </div>
+        
       </div>
 
       {/* Background Wave */}
