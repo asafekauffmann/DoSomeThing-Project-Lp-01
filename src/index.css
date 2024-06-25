@@ -4,16 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+  text-align: center;
+  min-width: fit-content
+}
+
 #root {
+  min-width: 320px;
   max-width: 100%;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-
-body {
-  text-align: center;
 }
 
 h1 {
@@ -24,6 +27,10 @@ h1 {
 
 #height-line-title {
   line-height: 72px;
+}
+
+#height-line-title-mobile {
+  line-height: 40px;
 }
 
 h2 {
