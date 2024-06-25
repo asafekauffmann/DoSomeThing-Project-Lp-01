@@ -1,10 +1,10 @@
 const Testimonials = () => (
   <>
-    <h2 className="font-semibold text-6xl text-white pb-3 lg:px-52" id="height-line-title">
+    <h2 className="font-semibold text-4xl sm:text-6xl text-white pb-3 lg:px-52" id="height-line-title-mobile sm:height-line-title">
       Update your team +40 more faster than other Website
     </h2>
 
-    <p className="text-white">
+    <p className="text-medium-blue text-lg">
       Click on the Vite and React logos to learn more
     </p>
 

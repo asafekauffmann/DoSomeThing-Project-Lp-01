@@ -1,59 +1,28 @@
 import { useState } from 'react'
-import logoDoSomeThing from './assets/images/logo.svg'
 import './App.css'
+import NavBar from './components/NavBar'
 import MyHero from './components/MyHero'
 import Documentation from './components/Documentation'
 import secondWave from './assets/images/second-wave.svg'
 import Testimonials from './components/Testimonials'
 import ContactUs from './components/ContactUs'
+import Footer from './components/Footer'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  const navLinks = [
-    {
-      id: 1,
-      title: "Documentation",
-    },
-    {
-      id: 2,
-      title: "Login",
-    },
-  ];
-
 
   return (
     <>
-      <div className="relative h-auto w-full">
-        <div className="bg-dark-blue flex flex-row justify-between content-center items-center p-3" >
-          <div className="p-6">
-            <a href="https://www.figma.com/design/dDzuNWi0mSH6oIqU11mMDc/Background-TestModel?node-id=0-1&t=1hiQ5kDFhrNPc9xa-0" target="_blank">
-              <img src={logoDoSomeThing} className="" alt="Do Some Thing logo" />
-            </a>
-          </div>
-
-          <div className="flex gap-6 p-6">
-            {navLinks.map((nav, index) => ( 
-              <p key={index} className="text-lg text-paragh-gray">
-                {nav.title}
-              </p>
-            ))}
-          </div>
-        </div>
-      </div>
-    
+      <NavBar />
       <MyHero />
 
       <div className="w-full flex flex-col items-center justify-center bg-light-blue">
         <Documentation />
-
         <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px]">
-          <div className="w-full flex flex-col items-center">
+          <div className="w-full flex flex-col items-center p-7">
             <Testimonials />
           </div>
         </div>
-        
       </div>
 
       <div className="w-full mb-0 bg-lighter-blue">
@@ -67,18 +36,10 @@ function App() {
         <p className="text-paragh-gray">
           Click on the Vite and React logos to learn more
         </p>
-        <button className="bg-dark-gray text-white" onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
       </div>
       
       <ContactUs />
-
-      <div className="bg-dark-gray flex justify-center content-center" >
-        <a href="https://www.figma.com/design/dDzuNWi0mSH6oIqU11mMDc/Background-TestModel?node-id=0-1&t=1hiQ5kDFhrNPc9xa-0" target="_blank">
-          <img src={logoDoSomeThing} className="logo" alt="Do Some Thing logo" />
-        </a>
-      </div> 
+      <Footer />
       
     </>
   )
