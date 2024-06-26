@@ -4,7 +4,6 @@ import bobbleMaskBgCircle from '../assets/images/bobble-mask-bg-circle.svg'
 const Documentation = () => ( 
   <>
     <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px] lg:h-[840px] ">
-
       <div className="w-full flex flex-col items-start justify-center object-contain p-7 lg:pr-16"> 
         <h1 className="font-semibold text-4xl sm:text-6xl text-white text-left pb-3" id="sm:height-line-title">
           LEARN HOW TO MAKE GREATEST INFOS ONE
@@ -15,7 +14,6 @@ const Documentation = () => (
         </p>
         <button className="w-52 bg-white text-light-blue rounded-3xl p-3 ">SEND EMAIL</button>
       </div>
-
       <div className="w-full flex flex-col items-center justify-center object-contain">
         <img src={bobbleMaskBg} className="relative lg:absolute lg:w-[500px]" alt="Booble background"/>
         <div className="relative">
@@ -27,7 +25,6 @@ const Documentation = () => (
     </div>
 
     <div className="flex flex-col-reverse md:flex-row justify-center card xl:w-[1300px] lg:h-[840px] ">
-
       <div className="w-full flex flex-col items-center justify-center object-contain">
         <img src={bobbleMaskBgCircle} className="relative lg:absolute lg:w-[500px]" alt="Booble background"/>
           <div className="relative">
@@ -36,7 +33,6 @@ const Documentation = () => (
             </p>
         </div>
       </div>
-
       <div className="w-full flex flex-col items-start justify-center object-contain p-7 lg:pl-16"> 
         <h1 className="font-semibold text-4xl sm:text-6xl text-white text-left pb-3" id="sm:height-line-title">
           CHECK YOUR CORPORATION EMAIL UPDATED
