@@ -3,7 +3,6 @@ import firstWave from '../assets/images/first-wave.svg'
 const  MyHero = () => (
 
   <div className="h-auto flex flex-col items-center justify-end bg-dark-blue">
-
     <div className="pt-36 pb-20 object-contain">
       <h1 className="text-white text-5xl sm:text-6xl font-normal pb-3">
         Create some task
@@ -22,7 +21,6 @@ const  MyHero = () => (
         </button>
       </div>
     </div>
-    
     <div className="w-full mb-0">
       <img src={firstWave} className="w-full h-auto" />
     </div>

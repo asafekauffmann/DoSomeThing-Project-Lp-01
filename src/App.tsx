@@ -6,6 +6,7 @@ import secondWave from './assets/images/second-wave.svg'
 import Testimonials from './components/Testimonials'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
+import ServiceSection from './components/ServiceSection'
 
 
 function App() {
@@ -14,7 +15,6 @@ function App() {
     <>
       <NavBar />
       <MyHero />
-
       <div className="w-full flex flex-col items-center justify-center bg-light-blue">
         <Documentation />
         <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px]">
@@ -28,18 +28,9 @@ function App() {
         <img src={secondWave} className="w-full h-auto" />
       </div> 
 
-      <div className="card bg-lighter-blue h-[80vh]">
-        <h1 className="text-medium-blue text-4xl">
-          Welcome to Design Map
-        </h1>
-        <p className="text-paragh-gray">
-          Click on the Vite and React logos to learn more
-        </p>
-      </div>
-      
+      <ServiceSection />
       <ContactUs />
       <Footer />
-      
     </>
   )
 }

@@ -7,10 +7,8 @@ const ContactUs = ( ) => (
     <div className="w-full mt-0 bg-lighter-blue">
       <img src={threeWave} className="w-full" />
     </div>
-
     <div className="relative h-auto w-full flex justify-center bg-dark-blue">
       <div className="flex flex-col-reverse md:flex-row justify-center card xl:w-[1300px] lg:h-[840px] ">
-
         <div className="w-full flex flex-col items-start justify-center object-contain ">
           <img src={bobbleMaskBgLast} className="relative lg:absolute md:-w-[360px] xl:w-auto" alt="Booble background"/>
           <div className="relative">
@@ -34,7 +32,6 @@ const ContactUs = ( ) => (
         </div>
       </div>
     </div>
-
     <div className="w-full mb-0 bg-lighter-blue">
       <img src={fourWave} className="w-full" />
     </div> 
