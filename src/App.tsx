@@ -4,6 +4,7 @@ import MyHero from './components/MyHero'
 import Documentation from './components/Documentation'
 import secondWave from './assets/images/second-wave.svg'
 import Testimonials from './components/Testimonials'
+import threeWave from './assets/images/three-wave.svg'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import ServiceSection from './components/ServiceSection'
@@ -29,6 +30,10 @@ function App() {
       </div> 
 
       <ServiceSection />
+
+      <div className="w-full mt-0 bg-lighter-blue">
+        <img src={threeWave} className="w-full" />
+      </div>
       <ContactUs />
       <Footer />
     </>
