@@ -18,11 +18,7 @@ function App() {
       <MyHero />
       <div className="w-full flex flex-col items-center justify-center bg-light-blue">
         <Documentation />
-        <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px]">
-          <div className="w-full flex flex-col items-center p-7">
-            <Testimonials />
-          </div>
-        </div>
+        <Testimonials />
       </div>
 
       <div className="w-full mb-0 bg-lighter-blue">
