@@ -1,13 +1,9 @@
 import fourWave from '../assets/images/four-wave.svg'
-import threeWave from '../assets/images/three-wave.svg'
 import bobbleMaskBgLast from '../assets/images/bobble-mask-bg-last.svg'
 import imageContact from '../assets/images/retangle-contact.svg'
 
 const ContactUs = ( ) => (
   <>
-    <div className="w-full mt-0 bg-lighter-blue">
-      <img src={threeWave} className="w-full" />
-    </div>
     <div className="relative h-auto w-full flex justify-center bg-dark-blue">
       <div className="flex flex-col-reverse md:flex-row justify-center card xl:w-[1300px] lg:h-[840px] ">
         <div className="w-full flex flex-col items-start justify-center object-contain ">
