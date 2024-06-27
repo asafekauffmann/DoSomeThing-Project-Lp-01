@@ -1,6 +1,7 @@
 import fourWave from '../assets/images/four-wave.svg'
 import threeWave from '../assets/images/three-wave.svg'
 import bobbleMaskBgLast from '../assets/images/bobble-mask-bg-last.svg'
+import imageContact from '../assets/images/retangle-contact.svg'
 
 const ContactUs = ( ) => (
   <>
@@ -12,9 +13,7 @@ const ContactUs = ( ) => (
         <div className="w-full flex flex-col items-start justify-center object-contain ">
           <img src={bobbleMaskBgLast} className="relative lg:absolute md:-w-[360px] xl:w-auto" alt="Booble background"/>
           <div className="relative">
-            <p className="text-dark-gray">
-              Test Image
-            </p>
+            <img src={imageContact} alt="image contact"/>
           </div>
         </div>
 

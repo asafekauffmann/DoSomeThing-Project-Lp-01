@@ -1,5 +1,7 @@
 import bobbleMaskBg from '../assets/images/bobble-mask-bg.svg'
 import bobbleMaskBgCircle from '../assets/images/bobble-mask-bg-circle.svg'
+import mobileImage from '../assets/images/retangle-mobile.svg'
+import mobileDesktop from '../assets/images/retangle-desktop.svg'
 
 const Documentation = () => ( 
   <>
@@ -17,9 +19,7 @@ const Documentation = () => (
       <div className="w-full flex flex-col items-center justify-center object-contain">
         <img src={bobbleMaskBg} className="relative lg:absolute lg:w-[500px]" alt="Booble background"/>
         <div className="relative">
-          <p className="text-dark-gray">
-            Test Image
-          </p>
+          <img src={mobileImage} alt="image mobile"/>
         </div>
       </div>
     </div>
@@ -28,9 +28,7 @@ const Documentation = () => (
       <div className="w-full flex flex-col items-center justify-center object-contain">
         <img src={bobbleMaskBgCircle} className="relative lg:absolute lg:w-[500px]" alt="Booble background"/>
           <div className="relative">
-            <p className="text-dark-gray">
-              Test Image
-            </p>
+            <img src={mobileDesktop} alt="image desktop"/>
         </div>
       </div>
       <div className="w-full flex flex-col items-start justify-center object-contain p-7 lg:pl-16"> 
