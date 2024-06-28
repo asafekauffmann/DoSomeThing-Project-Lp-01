@@ -1,7 +1,7 @@
 const Testimonials = () => (
   <>
-  < div className="flex flex-col md:flex-row justify-center card xl:w-[1300px]">
-      <div className="w-full flex flex-col items-center p-7">
+    <div className="flex flex-col md:flex-row justify-center card xl:w-[1300px]">
+      <div className="w-full flex flex-col items-center p-7 z-10">
         <h2 className="font-semibold text-4xl sm:text-6xl text-white pb-3 lg:px-52" id="height-line-title-mobile sm:height-line-title">
           Update your team +40 more faster than other Website
         </h2>
