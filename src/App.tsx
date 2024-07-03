@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import ServiceSection from './components/ServiceSection'
+import Form from './components/Form'
 
 
 function App() {
@@ -23,8 +24,8 @@ function App() {
         <img src={secondWave} className="w-full h-auto" />
       </div> 
       <ServiceSection />
-      
       <ContactUs />
+      <Form />
       <Footer />
     </>
   )

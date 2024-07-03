@@ -2,7 +2,7 @@
 
 const ServiceSection = () => (
   <div className="card bg-lighter-blue h-[80vh] ">
-    <h1 className="text-medium-blue font-medium text-4xl sm:text-6xl pb-3 lg:px-52 pt-16" id="height-line-title-mobile sm:height-line-title">
+    <h1 className="text-medium-blue font-medium text-4xl sm:text-6xl pb-3 lg:px-52 pt-28" id="height-line-title-mobile sm:height-line-title">
       Welcome to Design Map
     </h1>
     <p className="text-paragh-gray">
