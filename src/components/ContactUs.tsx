@@ -5,7 +5,7 @@ import threeWave from '../assets/images/three-wave.svg'
 
 const ContactUs = ( ) => (
   <>
-    <div className="w-full mt-0 bg-lighter-blue">
+    <div className="w-full mt-0 bg-lighter-blue pt-28">
       <img src={threeWave} className="w-full" />
     </div>
     <div className="relative h-auto w-full flex justify-center bg-dark-blue">
