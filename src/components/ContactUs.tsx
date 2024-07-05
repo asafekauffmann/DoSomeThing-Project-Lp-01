@@ -10,7 +10,7 @@ const ContactUs = ( ) => (
     </div>
     <div className="relative h-auto w-full flex justify-center bg-dark-blue">
       <div className="flex flex-col-reverse md:flex-row justify-center card xl:w-[1300px] lg:h-[840px] ">
-        <div className="w-full flex flex-col items-start justify-center object-contain py-16">
+        <div className="w-full flex flex-col items-center justify-center object-contain py-16">
           <img src={bobbleMaskBgLast} className="absolute md:-w-[360px] xl:w-auto z-0" alt="Booble background"/>
           <div className="relative">
             <img src={imageContact} className="z-10" alt="image contact"/>
@@ -31,7 +31,7 @@ const ContactUs = ( ) => (
         </div>
       </div>
     </div>
-    <div className="w-full mb-0 bg-lighter-blue">
+    <div className="w-full mb-0 bg-light-blue">
       <img src={fourWave} className="w-full" />
     </div> 
   </>
